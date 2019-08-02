@@ -1,5 +1,5 @@
 export interface Log{  
-    logId: string,
-    logText: string,
-    logDate: any
+    id: string,
+    text: string,
+    date: any
   }

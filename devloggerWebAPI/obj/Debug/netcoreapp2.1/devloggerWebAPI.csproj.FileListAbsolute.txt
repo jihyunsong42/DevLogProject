@@ -12,3 +12,17 @@ C:\git\CodingLearn_2019Feb\Angular\projects\devloggerWebAPI\obj\Debug\netcoreapp
 C:\git\CodingLearn_2019Feb\Angular\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.dll
 C:\git\CodingLearn_2019Feb\Angular\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.pdb
 C:\git\CodingLearn_2019Feb\Angular\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.csprojAssemblyReference.cache
+C:\projects\devloggerWebAPI\bin\Debug\netcoreapp2.1\devloggerWebAPI.deps.json
+C:\projects\devloggerWebAPI\bin\Debug\netcoreapp2.1\devloggerWebAPI.runtimeconfig.json
+C:\projects\devloggerWebAPI\bin\Debug\netcoreapp2.1\devloggerWebAPI.runtimeconfig.dev.json
+C:\projects\devloggerWebAPI\bin\Debug\netcoreapp2.1\devloggerWebAPI.dll
+C:\projects\devloggerWebAPI\bin\Debug\netcoreapp2.1\devloggerWebAPI.pdb
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.csprojAssemblyReference.cache
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.csproj.CoreCompileInputs.cache
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.RazorAssemblyInfo.cache
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.RazorAssemblyInfo.cs
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.AssemblyInfoInputs.cache
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.AssemblyInfo.cs
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.RazorTargetAssemblyInfo.cache
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.dll
+C:\projects\devloggerWebAPI\obj\Debug\netcoreapp2.1\devloggerWebAPI.pdb

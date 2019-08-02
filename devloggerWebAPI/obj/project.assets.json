@@ -11802,11 +11802,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\CodingLearn_2019Feb\\Angular\\projects\\devloggerWebAPI\\devloggerWebAPI.csproj",
+      "projectUniqueName": "C:\\projects\\devloggerWebAPI\\devloggerWebAPI.csproj",
       "projectName": "devloggerWebAPI",
-      "projectPath": "C:\\git\\CodingLearn_2019Feb\\Angular\\projects\\devloggerWebAPI\\devloggerWebAPI.csproj",
+      "projectPath": "C:\\projects\\devloggerWebAPI\\devloggerWebAPI.csproj",
       "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\CodingLearn_2019Feb\\Angular\\projects\\devloggerWebAPI\\obj\\",
+      "outputPath": "C:\\projects\\devloggerWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11846,7 +11846,6 @@
             "version": "[2.1.1, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

@@ -26,7 +26,6 @@ export class LogsComponent implements OnInit {
     this.logService.getLogs().subscribe(logs => {
       console.log(logs);
       this.logs = logs;
-      
       console.log(this.logs);
       this.loaded = true;
       if(this.logs !== null)

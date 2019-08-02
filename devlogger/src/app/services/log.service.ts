@@ -19,8 +19,8 @@ export class LogService {
   });
   selectedLog = this.logSource.asObservable();
 
-  private stateSouce = new BehaviorSubject<boolean>(true);
-  stateClear = this.stateSouce.asObservable();
+  private stateSource = new BehaviorSubject<boolean>(true);
+  stateClear = this.stateSource.asObservable();
  
   url = "http://localhost:5000/api/DevLog";
 
@@ -34,7 +34,18 @@ export class LogService {
   }
  
   
-    getLogs() : Observable<Log[]> {
+    getLogs() : Observable<Log[]> { // problem : we have to put data from DB to Local Storage.
+      this.http.get<Log[]>(this.url).subscribe(logs => {this.logs = logs;});
+      console.log(this.logs);
+      console.log('12');
+      if(localStorage.getItem('logs') === null)
+      {
+        this.logs = [];
+      }
+      else
+      {
+        this.logs = JSON.parse(localStorage.getItem('logs'));
+      }
       return this.http.get<Log[]>(this.url);
     }
     // ref: javascript sorting: https://www.w3schools.com/js/js_array_sort.asp
@@ -66,7 +77,7 @@ export class LogService {
 
     // local storage: only string
     // add to local storage
-    localStorage.setItem('logs', JSON.stringify(this.logs));
+    // localStorage.setItem('logs', JSON.stringify(this.logs));
   }
 
   updateLog(log:Log){
@@ -95,6 +106,6 @@ export class LogService {
   }
 
   clearState(){
-    this.stateSouce.next(true);
+    this.stateSource.next(true);
   }
 }
